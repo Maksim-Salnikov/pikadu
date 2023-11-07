@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pikady - Добавьте пост</title>
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-wrapper">
+          <a href="Index.html" class="header-logo">
+            <img
+              src="../img/header-logo.png"
+              alt="Logo: Pikadu"
+              class="header-logo__image"
+            />
+          </a>
+          <div class="header-menu-wrapper">
+            <ul class="header-menu">
+              <li class="header-menu-item">
+                <a href="#" class="header-menu-item__link">Свежее</a>
+              </li>
+              <li class="header-menu-item">
+                <a href="# " class="header-menu-item__link">Лучшее</a>
+              </li>
+              <li class="header-menu-item">
+                <a href="# " class="header-menu-item__link">Горячее</a>
+              </li>
+              <li class="header-menu-item">
+                <a href="#" class="header-menu-item__link">Подписки</a>
+              </li>
+            </ul>
+          </div>
+          <form action="text" class="header-form">
+            <input
+              type="text"
+              class="header-form__input"
+              placeholder="Поиск по сайту"
+            />
+            <button class="header-form-button">
+              <img
+                src="../img/search.svg"
+                alt="Icon: search"
+                class="header-form-button__icon"
+              />
+            </button>
+          </form>
+          <a href="#" class="header-button" id="menu-toggle">
+            <div class="header-button__line"></div>
+            <div class="header-button__line"></div>
+            <div class="header-button__line"></div>
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- /.header -->
+    <div class="container">
+      <section class="content">
+        <form action="#" class="content-form">
+          <input
+            type="text"
+            class="content-form__tittle"
+            placeholder="Заголовок поста"
+          />
+          <textarea
+            name="text"
+            id="text"
+            class="content-form__text"
+            placeholder="Текст вашего поста"
+          ></textarea>
+          <div class="content-form-buttons">
+            <button class="content-form-buttons-add content-sidebar-button">
+              <img
+                src="../img/fire.svg"
+                alt="icon: fire"
+                class="content-form-buttons-add__icon content-sidebar-button__icon"
+              />
+              <span
+                class="content-form-buttons-add__text content-sidebar-button__text"
+                >Опубликовать пост</span
+              >
+            </button>
+            <button class="content-form-buttons-movies">
+              <img
+                src="../img/movies.svg"
+                alt="icon: movie"
+                class="content-form-buttons-movies__icon"
+              />
+              <span class="content-form-buttons-movies__text">Видео</span>
+            </button>
+            <button class="content-form-buttons-photos">
+              <img
+                src="../img/photos.svg"
+                alt="icon: photo"
+                class="content-form-buttons-photos__icon"
+              />
+              <span class="content-form-buttons-photos__text">Видео</span>
+            </button>
+          </div>
+        </form>
+        <aside class="content-sidebar">
+          <div class="content-sidebar-usermenu">
+            <div class="content-sidebar-usermenu-user">
+              <img
+                src="img/avatar.jpg"
+                alt="avatar: User"
+                class="content-sidebar-usermenu-user__avatar"
+              />
+              <a href="#" class="content-sidebar-usermenu-user__name"
+                >islamovartem</a
+              >
+              <img
+                src="img/exit.svg"
+                alt="icon: exit"
+                class="content-sidebar-usermenu-user__exit"
+              />
+            </div>
+            <ul class="content-sidebar-usermenu-menu">
+              <li class="content-sidebar-usermenu-menu-item">
+                <a href="#" class="content-sidebar-usermenu-menu-item__link"
+                  >Ответы</a
+                >
+              </li>
+              <li class="content-sidebar-usermenu-menu-item">
+                <a href="#" class="content-sidebar-usermenu-menu-item__link"
+                  >Комментарии</a
+                >
+              </li>
+              <li class="content-sidebar-usermenu-menu-item">
+                <a href="#" class="content-sidebar-usermenu-menu-item__link"
+                  >Оценки</a
+                >
+              </li>
+              <li class="content-sidebar-usermenu-menu-item">
+                <a href="#" class="content-sidebar-usermenu-menu-item__link"
+                  >Сохраненное</a
+                >
+              </li>
+              <li class="content-sidebar-usermenu-menu-item">
+                <a href="#" class="content-sidebar-usermenu-menu-item__link"
+                  >Подписки</a
+                >
+              </li>
+              <li class="content-sidebar-usermenu-menu-item">
+                <a href="#" class="content-sidebar-usermenu-menu-item__link"
+                  >Заметки</a
+                >
+              </li>
+              <li class="content-sidebar-usermenu-menu-item">
+                <a href="#" class="content-sidebar-usermenu-menu-item__link"
+                  >Игнор-лист</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="content-sidebar-advertising">
+            <img
+              src="img/advertising.jpg"
+              alt="image_ advertising"
+              class="content-sidebar-advertising__image"
+            />
+          </div>
+        </aside>
+      </section>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

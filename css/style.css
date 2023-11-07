@@ -552,6 +552,7 @@ template {
   border: none;
   margin-bottom: 20px;
   cursor: pointer;
+  text-decoration: none;
 }
 .content-sidebar-button__icon {
   margin-right: 90px;
@@ -606,6 +607,84 @@ template {
   color: var(--grey-grey-9, #262626);
 }
 
+.content-form {
+  width: 800px;
+}
+.content-form__tittle {
+  width: 100%;
+  margin-bottom: 16px;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 23px 31px;
+  color: #000;
+  border: 1px solid #E8E8E8;
+}
+.content-form__text {
+  width: 100%;
+  height: 362px;
+  padding: 23px 31px;
+  font-family: SF Pro Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #595959;
+  border: 1px solid #E8E8E8;
+  margin-bottom: 30px;
+}
+.content-form-buttons {
+  display: flex;
+}
+.content-form-buttons-add {
+  width: 370px;
+  height: 50px;
+  margin-right: 36px;
+}
+.content-form-buttons-movies {
+  display: flex;
+  align-items: center;
+  width: 125px;
+  height: 50px;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 13px 16px;
+  background-color: #fff;
+  color: #FFC53D;
+  border: 1px solid #FFC53D;
+  border-radius: 4px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.content-form-buttons-movies__icon {
+  margin-right: 15px;
+}
+.content-form-buttons-photos {
+  display: flex;
+  align-items: center;
+  width: 125px;
+  height: 50px;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 13px 16px;
+  background-color: #fff;
+  color: #FFC53D;
+  border: 1px solid #FFC53D;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.content-form-buttons-photos__icon {
+  margin-right: 15px;
+}
+
 @media (max-width: 1200px) {
   .container {
     width: 990px;
@@ -624,6 +703,9 @@ template {
   .content {
     margin-top: 94px;
     margin-bottom: 50px;
+  }
+  .content-form {
+    width: 100%;
   }
   .content-posts {
     width: 100%;
@@ -710,6 +792,22 @@ template {
   .post-bot-author__avatar {
     order: -1;
     margin-right: 15px;
+  }
+  .content-form {
+    margin-bottom: 40px;
+  }
+  .content-form-buttons {
+    flex-direction: column;
+  }
+  .content-form-buttons-add {
+    width: 100%;
+  }
+  .content-form-buttons-movies {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .content-form-buttons-photos {
+    width: 100%;
   }
 }
 @media (max-width: 320px) {
