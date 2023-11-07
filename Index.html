@@ -18,20 +18,22 @@
               class="header-logo__image"
             />
           </div>
-          <ul class="header-menu">
-            <li class="header-menu-item">
-              <a href="#" class="header-menu-item__link">Свежее</a>
-            </li>
-            <li class="header-menu-item">
-              <a href="# " class="header-menu-item__link">Лучшее</a>
-            </li>
-            <li class="header-menu-item">
-              <a href="# " class="header-menu-item__link">Горячее</a>
-            </li>
-            <li class="header-menu-item">
-              <a href="#" class="header-menu-item__link">Подписки</a>
-            </li>
-          </ul>
+          <div class="header-menu-wrapper">
+            <ul class="header-menu">
+              <li class="header-menu-item">
+                <a href="#" class="header-menu-item__link">Свежее</a>
+              </li>
+              <li class="header-menu-item">
+                <a href="# " class="header-menu-item__link">Лучшее</a>
+              </li>
+              <li class="header-menu-item">
+                <a href="# " class="header-menu-item__link">Горячее</a>
+              </li>
+              <li class="header-menu-item">
+                <a href="#" class="header-menu-item__link">Подписки</a>
+              </li>
+            </ul>
+          </div>
           <form action="text" class="header-form">
             <input
               type="text"
@@ -46,6 +48,11 @@
               />
             </button>
           </form>
+          <a href="#" class="header-button" id="menu-toggle">
+            <div class="header-button__line"></div>
+            <div class="header-button__line"></div>
+            <div class="header-button__line"></div>
+          </a>
         </div>
       </div>
     </header>
@@ -327,5 +334,6 @@
         </aside>
       </section>
     </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
