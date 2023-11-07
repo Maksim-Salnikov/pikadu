@@ -470,4 +470,118 @@ template {
   width: 32px;
   height: 32px;
   border-radius: 4px;
+}
+
+.content-sidebar {
+  display: flex;
+  flex-direction: column;
+}
+.content-sidebar-usermenu {
+  margin-bottom: 20px;
+}
+.content-sidebar-usermenu-user {
+  padding: 15px 25px;
+  border: 1px solid var(--grey-grey-4, #E8E8E8);
+  background: var(--grey-grey-2, #FAFAFA);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-sidebar-usermenu-user__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.content-sidebar-usermenu-user__name {
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--grey-grey-8, #595959);
+  text-decoration: none;
+  margin-left: -130px;
+}
+.content-sidebar-usermenu-user__exit {
+  cursor: pointer;
+}
+.content-sidebar-usermenu-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 1px solid var(--grey-grey-4, #E8E8E8);
+}
+.content-sidebar-usermenu-menu-item {
+  padding: 16px 48px;
+  background-color: #fff;
+}
+.content-sidebar-usermenu-menu-item__link {
+  font-family: SF Pro Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: var(--grey-grey-8, #595959);
+  text-decoration: none;
+}
+.content-sidebar-button {
+  display: flex;
+  align-items: center;
+  padding: 13px 16px;
+  border-radius: 4px;
+  background: var(--calendula-gold-gold-6, #FAAD14);
+  border: none;
+  margin-bottom: 20px;
+}
+.content-sidebar-button__icon {
+  margin-right: 90px;
+}
+.content-sidebar-button__text {
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--grey-grey-1, #FFF);
+}
+.content-sidebar-comment {
+  margin-bottom: 20px;
+}
+.content-sidebar-comment-top {
+  padding: 23px 25px;
+  border: 1px solid var(--grey-grey-4, #E8E8E8);
+  background: var(--grey-grey-2, #FAFAFA);
+}
+.content-sidebar-comment-top__tittle {
+  margin: 0;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--grey-grey-8, #595959);
+}
+.content-sidebar-comment-bot {
+  padding: 22px 40px 30px 25px;
+  background-color: #fff;
+  border: 1px solid var(--grey-grey-4, #E8E8E8);
+}
+.content-sidebar-comment-bot__tittle {
+  margin: 0;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--calendula-gold-gold-7, #D48806);
+  margin-bottom: 10px;
+}
+.content-sidebar-comment-bot__text {
+  margin: 0;
+  font-family: SF Pro Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: var(--grey-grey-9, #262626);
 }/*# sourceMappingURL=style.css.map */
